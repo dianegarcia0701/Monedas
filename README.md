@@ -30,4 +30,6 @@ Si el monto es menor que 0 entonces se cancela la
   +----------+---------------+---------------------+----------------+
   
 
-## Etapa 3  Diseño de la Solucion
+## Etapa 3  Diseño de la 
+Diagrama de Clases.png
+
