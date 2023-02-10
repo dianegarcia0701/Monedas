@@ -1,35 +1,30 @@
-# Monedas
-Ejercicio 1
-
-##  Etapa 01. Descripcion del problema 
-Se requiere un programa en Java para convertir una cantidad de dinero en otros tipos de monedas (al menos a cinco tipos de monedas distintas).
-
-
-##  Etapa 2 Definciion de la Soluc
-~~~
+# 
 -Entrada
 Float Cantidad 
 StringMoneda1,StringMoneda2,StringMoneda3,StringMoneda4,StringMoneda5
 Double Conversion
 
 -Proces
-Solciitar Moneda a  convertir
-Solicitar cantidad  a convertir 
-Solicitar moneda para procesar 
+Solicitar moneda a convertir 
+Solicitar cantidad a convertir
+Solicitar moneda para procesar conversion
 
-Si el  monto es mayor que 0 entonces  se convertira a la moneda deseado
-Si el monto es menor que 0 entonces se cancela la 
+Si el monto es mayor o igual que cero entonces se convertira a la moneda deseada
+Si el monto es menor que cero entonces se cancela la operación
 
--Salida
-  +----------+---------------+---------------------+----------------+
-  | CANTIDAD | MONEDA ORIGEN | CANTIDAD CONVERTIDA | MONEDA DESTINO |
-  +----------+---------------+---------------------+----------------+
-  |       10 |          DLLS |              189.79 |            MXN |
-  +----------+---------------+---------------------+----------------+
-  |       10 |          DLLS |             0.00043 |            BTC |
-  +----------+---------------+---------------------+----------------+
-  
+Salida
 
-## Etapa 3  Diseño de la 
-Diagrama de Clases.png
 
++-----------+----------------+----------------+---------------+
+|CANTIDAD    | MONEDA ORIGEN|  CANTIDAD CONVERTIDA | MONEDA DESTINO |
++-----------+----------------+---------------+-------------+
+| 15        |     DLSS       |        13.93   | EUR          +
++-----------+-----------------+--------------+--------------+
+|15   |  DLS  |  15.04  | Balboa   |
++---------+------------------+----------------+-------------+
+|    15   | DLS    |  53.02   |  Kina |
++--------------+----------------+------------------+---------------+
+| 15    | DLS     |  295575.00 |  Leone |
++--------------+----------------+-----------------+--------------+
+| 15   | DLS   |   266.25 |   Loti |
++------------+------------------+------------------+--------------+
