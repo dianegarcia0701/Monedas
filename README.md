@@ -44,4 +44,5 @@ Salida
 ## Etapa 03. Diseño de la solucion
 
 
-[](https://github.com/dianegarcia0701/Monedas/blob/main/Diagrama%20de%20Clases.png)
+[](Diagrama de Clases.png)
+
